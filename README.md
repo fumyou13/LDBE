@@ -26,7 +26,7 @@ Even compared to the latest methods accessing the large amounts of source domain
 ## Result
 GTA5 -> Cityscapes:
 
-|  Methods   | Source-only | LD| LDBE |
+|  Methods| Source-only | LD | LDBE |
 | mIoU | 35.7 | 45.5 |49.2 |
 
 SYNTHIA -> Cityscapes:
