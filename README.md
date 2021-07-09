@@ -23,15 +23,32 @@ benchmarks demonstrate our claims and the effectiveness of our framework, which 
 outperforms the baseline with a large margin (+13.5% mIoU in GTA5 → Cityscapes and +13.5% mIoU in SYNTHIA → Cityscapes).
 Even compared to the latest methods accessing the large amounts of source domain data, LDBE also yields competitive performance.
 
+## Result
+GTA5 -> Cityscapes:
+|  Methods   | mIoU  |
+|  ----  | ----  |
+| Source_only | 35.7 |
+| LD  | 45.5 |
+| LDBE | 45.9|
+
+SYNTHIA -> Cityscapes:
+|  Methods   | mIoU (16-classes) | mIoU (13-classes)|
+|  ----  | ----  |----|
+| Source_only | 32.5 | 37.6|
+| LD  | 42.6 | 50.1|
+| LDBE | 43.5| 51.1|
+
 ## Data
 
-Download [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/)
+Download [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/).
 
 Download [SYNTHIA](http://synthia-dataset.net/). Please use SYNTHIA-RAND-CITYSCAPES
 
-Download [Cityscapes](https://www.cityscapes-dataset.com/)
+Download [Cityscapes](https://www.cityscapes-dataset.com/).
 
 Make sure the data path is consistent with the path in config file.
+
+
 ## Training
 
 Stage 0: Training on the source domain data.
