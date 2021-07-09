@@ -6,7 +6,7 @@ Pytorch implementation for two papers (the paper will be released soon):
 "Challenging Source-free Domain Adaptive Semantic Segmentation", submitted to TPAMI.
 
 ## Method
-
+![](/img/main1.pdf)
 
 
 ## Result
