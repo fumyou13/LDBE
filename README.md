@@ -6,8 +6,7 @@ Pytorch implementation for two papers (the paper will be released soon):
 "Challenging Source-free Domain Adaptive Semantic Segmentation", submitted to TPAMI.
 
 ## Method
-
-![aa](img/main1.png)
+[![RvcvVJ.png](https://z3.ax1x.com/2021/07/09/RvcvVJ.png)](https://imgtu.com/i/RvcvVJ)
 
 
 ## Result
@@ -24,7 +23,7 @@ SYNTHIA -> Cityscapes:
 | mIoU (16-classes)  | 32.5 | 42.6 | 43.5 |
 | mIoU (13-classes)  | 37.6 | 50.1 | 51.1 |
 
-![a](img/visual.png)
+[![RvgC26.png](https://z3.ax1x.com/2021/07/09/RvgC26.png)](https://imgtu.com/i/RvgC26)
 
 ## Data
 
