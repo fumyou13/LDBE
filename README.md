@@ -26,33 +26,27 @@ Even compared to the latest methods accessing the large amounts of source domain
 ## Data
 
 [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/)
+
 [SYNTHIA](http://synthia-dataset.net/). Please use SYNTHIA-RAND-CITYSCAPES
+
 [Cityscapes](https://www.cityscapes-dataset.com/)
 
 ## Training
 
 Stage 0: Training on the source domain data.
-'''
-python run_so.py
-'''
 
-The trained model is available at ...
+Run "run_so.py". The trained model is available at ...
 
 Stage 1: Label denoising (both positive learning and negative learning).
-Set method:"ld" in config/ldbe_config.yml. Then,
-'''
-python run.py
-'''
-The trained model is available at ...
+
+Set method:"ld" in config/ldbe_config.yml. Then, run "run.py". The trained model is available at ...
 
 Stage 2: Boundary enhancement
-Set method:"be" in config/ldbe_config.yml. Then,
-'''
-python run.py
-'''
-The trained model is available at ...
+
+Set method:"be" in config/ldbe_config.yml. Then, run "run.py". The trained model is available at ...
 
 ## Acknowledgement
 
 [https://github.com/Solacex/CCM](https://github.com/Solacex/CCM)
+
 [https://github.com/yzou2/CRST](https://github.com/yzou2/CRST)
