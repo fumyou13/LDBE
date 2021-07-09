@@ -6,7 +6,7 @@ Pytorch implementation for two papers (the paper will be released soon):
 "Challenging Source-free Domain Adaptive Semantic Segmentation", submitted to TPAMI.
 
 ## Method
-![](./img/main1.pdf)
+![](img/main1.png)
 
 
 ## Result
@@ -23,6 +23,7 @@ SYNTHIA -> Cityscapes:
 | mIoU (16-classes)  | 32.5 | 42.6 | 43.5 |
 | mIoU (13-classes)  | 37.6 | 50.1 | 51.1 |
 
+![](img/visual.png)
 ## Data
 
 Download [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/).
