@@ -27,18 +27,16 @@ Even compared to the latest methods accessing the large amounts of source domain
 GTA5 -> Cityscapes:
 
 |  Methods| Source-only | LD | LDBE |
+|  ----  | ----  |----|----|
 | mIoU | 35.7 | 45.5 | 49.2 |
 
 SYNTHIA -> Cityscapes:
 
 |  Methods   | Source-only | LD | LDBE |
+|  ----  | ----  |----|----|
 | mIoU (16-classes)  | 32.5 | 42.6 | 43.5 |
 | mIoU (13-classes)  | 37.6 | 50.1 | 51.1 |
 
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
 ## Data
 
 Download [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/).
