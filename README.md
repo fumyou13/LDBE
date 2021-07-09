@@ -48,7 +48,7 @@ Download [Cityscapes](https://www.cityscapes-dataset.com/).
 Make sure the data path is consistent with the path in config file.
 
 
-## Training
+## Training (TODO)
 
 Stage 0: Training on the source domain data.
 
