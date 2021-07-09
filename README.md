@@ -25,12 +25,13 @@ Even compared to the latest methods accessing the large amounts of source domain
 
 ## Data
 
-[GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/)
+Download [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/)
 
-[SYNTHIA](http://synthia-dataset.net/). Please use SYNTHIA-RAND-CITYSCAPES
+Download [SYNTHIA](http://synthia-dataset.net/). Please use SYNTHIA-RAND-CITYSCAPES
 
-[Cityscapes](https://www.cityscapes-dataset.com/)
+Download [Cityscapes](https://www.cityscapes-dataset.com/)
 
+Make sure the data path is consistent with the path in config file.
 ## Training
 
 Stage 0: Training on the source domain data.
