@@ -25,18 +25,15 @@ Even compared to the latest methods accessing the large amounts of source domain
 
 ## Result
 GTA5 -> Cityscapes:
-|  Methods   | mIoU  |
-|  ----  | ----  |
-| Source_only | 35.7 |
-| LD  | 45.5 |
-| LDBE | 45.9|
+|  Methods   | Source-only | LD| LDBE|
+
+| mIoU | 35.7 | 45.5|49.2|
+
 
 SYNTHIA -> Cityscapes:
-|  Methods   | mIoU (16-classes) | mIoU (13-classes)|
-|  ----  | ----  |----|
-| Source_only | 32.5 | 37.6|
-| LD  | 42.6 | 50.1|
-| LDBE | 43.5| 51.1|
+|  Methods   | Source-only | LD|LDBE|
+| mIoU (16-classes)  | 32.5 |42.6 |43.5|
+| mIoU (13-classes)  | 37.6 | 50.1|51.1|
 
 ## Data
 
