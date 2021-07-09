@@ -5,23 +5,9 @@ Pytorch implementation for two papers (the paper will be released soon):
 
 "Challenging Source-free Domain Adaptive Semantic Segmentation", submitted to TPAMI.
 
-## Abstact 
-Domain adaptive semantic segmentation is recognized as a promising technique to alleviate the domain shift between the
-labeled source domain and the unlabeled target domain in many real-world applications, such as automatic pilot. However, large
-amounts of source domain data often introduce significant costs in storage and training, and sometimes the source data is inaccessible
-due to privacy policies. To address these problems, we investigate Source-Free domain adaptive Semantic Segmentation (SFSS),
-which assumes that the model is pre-trained on the source domain, and then adapted to the target domain without accessing source
-data anymore. Based on extensive experiments and re-implementations of conventional self-training methods and recent source-free
-domain adaptation methods, we first summarize three challenges of SFSS: learning from numerous noises, preventing the
-“winner-takes-all” and boundary confusion. Then, we propose a two-stage framework including Label Denoising and Boundary
-Enhancement (LDBE) to address it. In stage 1, we propose two effective and mutually reinforcing components: positive learning and
-negative learning to perform label denoising from two perspectives, significantly removing numerous noises and prevents the
-“winner-takes-all” dilemma. Then, we analyze the bottleneck of stage 1 training, and propose a novel data-augmentation method to
-further enhance the boundary between each category in stage 2. Notably, our framework LDBE can be easily implemented and
-incorporated with other methods to further enhance their performance. Extensive experiments on widely-used synthetic-to-real
-benchmarks demonstrate our claims and the effectiveness of our framework, which achieves state-of-the-art performance and
-outperforms the baseline with a large margin (+13.5% mIoU in GTA5 → Cityscapes and +13.5% mIoU in SYNTHIA → Cityscapes).
-Even compared to the latest methods accessing the large amounts of source domain data, LDBE also yields competitive performance.
+## Method
+
+
 
 ## Result
 GTA5 -> Cityscapes:
