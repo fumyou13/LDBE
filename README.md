@@ -50,6 +50,17 @@ Stage 2: Boundary enhancement
 
 Set method:"be" in config/ldbe_config.yml. Then, run "run.py". The trained model is available at [google drive](https://drive.google.com/file/d/1eFgqnPRIiivtTPCk6AihKjaeduaIyu-a/view?usp=sharing).
 
+## Citation
+If you find our repository is helpful, please consider citing our paper
+'''
+@inproceedings{you2021domain,
+      title = {Domain Adaptive Semantic Segmentation without Source Data}, 
+      author = {Fuming You and Jingjing Li and Lei Zhu and Ke Lu and Zhi Chen and Zi Huang},
+      booktitle = {ACM Multimedia}, 
+      year = {2021}
+}
+'''
+
 ## Acknowledgement
 
 [https://github.com/Solacex/CCM](https://github.com/Solacex/CCM)
