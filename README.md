@@ -52,14 +52,14 @@ Set method:"be" in config/ldbe_config.yml. Then, run "run.py". The trained model
 
 ## Citation
 If you find our repository is helpful, please consider citing our paper
-'''
-@inproceedings{you2021domain,
-      title = {Domain Adaptive Semantic Segmentation without Source Data}, 
-      author = {Fuming You and Jingjing Li and Lei Zhu and Ke Lu and Zhi Chen and Zi Huang},
-      booktitle = {ACM Multimedia}, 
-      year = {2021}
-}
-'''
+
+      @inproceedings{you2021domain,
+            title = {Domain Adaptive Semantic Segmentation without Source Data}, 
+            author = {Fuming You and Jingjing Li and Lei Zhu and Ke Lu and Zhi Chen and Zi Huang},
+            booktitle = {ACM Multimedia}, 
+            year = {2021}
+      }
+
 
 ## Acknowledgement
 
