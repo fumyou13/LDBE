@@ -6,8 +6,8 @@ Pytorch implementation for two papers (the paper will be released soon):
 "Challenging Source-free Domain Adaptive Semantic Segmentation", submitted to TPAMI.
 
 ## Method
-[![RvcvVJ.png](https://z3.ax1x.com/2021/07/09/RvcvVJ.png)](https://imgtu.com/i/RvcvVJ)
-
+%[![RvcvVJ.png](https://z3.ax1x.com/2021/07/09/RvcvVJ.png)](https://imgtu.com/i/RvcvVJ)
+[![img/main1.png]()]()
 
 ## Result
 GTA5 -> Cityscapes:
@@ -23,7 +23,8 @@ SYNTHIA -> Cityscapes:
 | mIoU (16-classes)  | 32.5 | 42.6 | 43.5 |
 | mIoU (13-classes)  | 37.6 | 50.1 | 51.1 |
 
-[![RvgC26.png](https://z3.ax1x.com/2021/07/09/RvgC26.png)](https://imgtu.com/i/RvgC26)
+%[![RvgC26.png](https://z3.ax1x.com/2021/07/09/RvgC26.png)](https://imgtu.com/i/RvgC26)
+[![img/visual.png]()]()
 
 ## Data
 
@@ -40,15 +41,15 @@ Make sure the data path is consistent with the path in config file.
 
 Stage 0: Training on the source domain data.
 
-Run "run_so.py". The trained model is available at ...
+Run "run_so.py". The trained model is available at [google drive](https://drive.google.com/file/d/1nXQS_4nd9zgsSELzhiV_WgihWaNvP6_5/view?usp=sharing)
 
 Stage 1: Label denoising (both positive learning and negative learning).
 
-Set method:"ld" in config/ldbe_config.yml. Then, run "run.py". The trained model is available at ...
+Set method:"ld" in config/ldbe_config.yml. Then, run "run.py". The trained model is available at [google drive](https://drive.google.com/file/d/10iYWhgrxJHNl2vR-u2N3-uVRXH7qGPfZ/view?usp=sharing)
 
 Stage 2: Boundary enhancement
 
-Set method:"be" in config/ldbe_config.yml. Then, run "run.py". The trained model is available at ...
+Set method:"be" in config/ldbe_config.yml. Then, run "run.py". The trained model is available at [google drive](https://drive.google.com/file/d/1eFgqnPRIiivtTPCk6AihKjaeduaIyu-a/view?usp=sharing)
 
 ## Acknowledgement
 
