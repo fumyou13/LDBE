@@ -44,7 +44,7 @@ power: 0.9
 round: 2
 
 # Logging
-print_freq: 100
+print_freq: 300
 save_freq: 30000
 tensorboard: False
 neptune: False
