@@ -120,7 +120,7 @@ class Trainer(BaseTrainer):
         b, c, h, w = img_s.shape
         pred_s = self.model.forward(img_s.cuda())[0]
         label_s = label_s.long().cuda()
-        if self.config.method == 'simsfss':
+        if self.config.method == 'ld':
             pred_s = pred_s.permute(0, 2, 3, 1).contiguous().view(-1, self.config.num_classes)
             pred_s_softmax = F.softmax(pred_s, -1)
             label_s = label_s.view(-1)
