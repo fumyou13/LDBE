@@ -1,5 +1,5 @@
 # LDBE
-Pytorch implementation for two papers:
+Pytorch implementation for:
 
 "Domain Adaptive Semantic Segmentation without Source Data", ACM MM2021. Paper link: [http://arxiv.org/abs/2110.06484](http://arxiv.org/abs/2110.06484)
 
