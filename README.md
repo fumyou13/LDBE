@@ -3,7 +3,6 @@ Pytorch implementation for two papers:
 
 "Domain Adaptive Semantic Segmentation without Source Data", ACM MM2021. Paper link: [http://arxiv.org/abs/2110.06484](http://arxiv.org/abs/2110.06484)
 
-"Challenging Source-free Domain Adaptive Semantic Segmentation", submitted to TPAMI.
 
 ## Method
 ![](img/main1.png)
